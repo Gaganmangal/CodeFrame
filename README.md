@@ -1,140 +1,136 @@
 <p align="center">
-  <img src="https://img.icons8.com/ios-filled/50/code--v1.png" width="60" alt="CodeFrame Icon" />
+  <img src="https://img.icons8.com/ios-filled/50/code--v1.png" width="70" alt="CodeFrame Icon" />
 </p>
 
 <h1 align="center">
   <a href="https://code-ss.pages.dev/" target="_blank">CodeFrame</a>
 </h1>
 
-<p align="center"><i>A beautiful code snippet screenshot tool — a Ray.so clone with advanced customization features.</i></p>
+<p align="center"><b>✨ Modern, customizable code snippet screenshot tool — a Ray.so alternative with superpowers.</b></p>
+
+<p align="center">
+  <a href="https://github.com/Gaganmangal/CodeFrame/releases">
+    <img src="https://img.shields.io/github/v/release/Gaganmangal/CodeFrame?style=flat-square&color=4F8CFF" alt="Release" />
+  </a>
+  <a href="https://github.com/Gaganmangal/CodeFrame/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Gaganmangal/CodeFrame?style=flat-square&color=4ade80" alt="License" />
+  </a>
+  <a href="https://github.com/Gaganmangal/CodeFrame/issues">
+    <img src="https://img.shields.io/github/issues/Gaganmangal/CodeFrame?style=flat-square&color=fdba74" alt="Open Issues" />
+  </a>
+  <a href="https://github.com/Gaganmangal/CodeFrame/stargazers">
+    <img src="https://img.shields.io/github/stars/Gaganmangal/CodeFrame?style=flat-square&color=facc15" alt="Stars" />
+  </a>
+</p>
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- 🎨 10+ elegant themes (light & dark)
-- 🔤 12+ popular monospace fonts
-- 🧠 Auto language detection with syntax highlighting
-- 📄 Export as **SVG**, **PNG**, or **copy to clipboard**
-- 🔗 Shareable URLs with current code + style
-- 🔧 Fully customizable:
-  - Font style & size
-  - Padding
-  - Background toggle
-  - Dark mode
-  - Resizable code frame
-- ⚡ Keyboard shortcuts support for faster workflow
+- 🎨 10+ Modern Themes (light & dark)
+- 🔠 12+ Popular Monospace Fonts
+- 🧠 Auto Language Detection & Syntax Highlighting
+- 🖼️ Export as SVG/PNG or copy to clipboard
+- 🔗 Shareable URLs with full code & style state
+- 🧩 Fully Customizable: font, size, padding, background, dark mode, resizable frame
+- ⚡ Keyboard Shortcuts for rapid workflow
 
 ---
 
-## 📌 Use Cases
+## 📸 Use Cases
 
-- 📸 Share beautiful code on social media (Twitter, LinkedIn, etc.)
-- 📚 Add visually styled code in blog articles or documentation
-- 🧑‍🏫 Make clean slides for tech presentations or tutorials
-- 🧾 Create assets for portfolio websites
+- Share beautiful code on social media & dev communities
+- Add styled code to blogs, docs, portfolios
+- Make engaging slides for talks & tutorials
+- Generate assets for your projects
 
 ---
 
 ## ⌨️ Keyboard Shortcuts
 
-| Shortcut           | Action                  |
-| ------------------ | ----------------------- |
-| `Ctrl + C`         | Copy image to clipboard |
-| `Ctrl + Shift + C` | Copy shareable link     |
-| `Ctrl + S`         | Save as PNG             |
-| `Ctrl + Shift + S` | Save as SVG             |
+| Shortcut             | Action                    |
+|----------------------|--------------------------|
+| <kbd>Ctrl</kbd> + <kbd>C</kbd>           | Copy image to clipboard   |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> | Copy shareable link        |
+| <kbd>Ctrl</kbd> + <kbd>S</kbd>           | Save as PNG              |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Save as SVG                |
 
-> 💡 Use `Cmd` instead of `Ctrl` on macOS.
-
----
-
-## 🧪 Tech Stack
-
-| Technology                                                                         | Description                           |
-| ---------------------------------------------------------------------------------- | ------------------------------------- |
-| [React](https://reactjs.org/)                                                      | Frontend library                      |
-| [Vite](https://vitejs.dev/)                                                        | Lightning-fast development build tool |
-| [Tailwind CSS](https://tailwindcss.com/)                                           | Utility-first styling                 |
-| [ShadCN UI](https://ui.shadcn.com)                                                 | Beautiful accessible UI components    |
-| [Zustand](https://zustand-demo.pmnd.rs/)                                           | Lightweight global state manager      |
-| [Highlight.js](https://highlightjs.org/)                                           | Syntax highlighter                    |
-| [html-to-image](https://www.npmjs.com/package/html-to-image)                       | Capture DOM to image                  |
-| [React Simple Code Editor](https://www.npmjs.com/package/react-simple-code-editor) | Lightweight editor                    |
-| [React Hot Toast](https://react-hot-toast.com/)                                    | Beautiful toast notifications         |
-| [react-hotkeys-hook](https://www.npmjs.com/package/react-hotkeys-hook)             | Keyboard shortcuts                    |
-| [re-resizable](https://www.npmjs.com/package/re-resizable)                         | Resizable wrapper for editor          |
+> 💡 Use <kbd>Cmd</kbd> instead of <kbd>Ctrl</kbd> on macOS.
 
 ---
 
-## 🚀 Getting Started
+## 🧑‍💻 Tech Stack
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/nimone/code-screenshot.git
-cd code-screenshot
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Start the development server
-
-```bash
-npm run dev
-```
-
-Visit [http://localhost:5173](http://localhost:5173) in your browser.
+- **React** – Modern frontend library
+- **Vite** – Lightning-fast build tool
+- **Tailwind CSS** – Utility-first styling
+- **ShadCN UI** – Accessible, beautiful components
+- **Zustand** – Global state management
+- **Highlight.js** – Syntax highlighting
+- **html-to-image** – Export DOM as image
+- **React Simple Code Editor** – Lightweight code input
+- **React Hot Toast** – Toast notifications
+- **react-hotkeys-hook** – Keyboard shortcuts
+- **re-resizable** – Resizable wrapper
 
 ---
 
-## 🏗️ Build & Serve (Production)
+## 🏁 Get Started
+
+1. **Clone repository**
+    ```bash
+    git clone https://github.com/Gaganmangal/CodeFrame.git
+    cd CodeFrame
+    ```
+
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3. **Start development server**
+    ```bash
+    npm run dev
+    ```
+    Visit [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🛠️ Build & Deploy
 
 ```bash
-# Build the project
-npm run build
-
-# Preview the production build
-npm run serve
+npm run build      # Build for production
+npm run serve      # Preview production build
 ```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-If you have suggestions, improvements, or bug fixes, feel free to:
-
-1. Fork the project
-2. Create a branch:
-   ```bash
-   git checkout -b feature/my-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push the branch:
-   ```bash
-   git push origin feature/my-feature
-   ```
-5. Open a pull request
+Contributions are welcome!  
+Fork the repo, create a feature branch, and open a pull request.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+Released under the [MIT License](./LICENSE).
 
 ---
 
 ## 🙏 Acknowledgements
 
 - Inspired by [Ray.so](https://ray.so)
-- Built using amazing open-source tools by the React community
+- Built with love and open-source tools
 
+---
+
+<p align="center">
+  <a href="https://code-ss.pages.dev/" target="_blank">
+    🌈 Try CodeFrame Online →
+  </a>
+</p>
+
+---
+
+You can copy and paste this markdown directly into your README.md file for a fresh, modern look.
