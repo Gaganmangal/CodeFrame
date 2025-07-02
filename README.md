@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
   <img src="https://img.icons8.com/ios-filled/50/code--v1.png" width="70" alt="CodeFrame Icon" />
 </p>
