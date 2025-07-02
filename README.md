@@ -1,20 +1,12 @@
-# [CodeFrame]
-
-A fully functional Ray.so clone (a powerful tool for sharing code snippets) with additional features. Share beautiful screenshots of your code on your social media platforms.
-
 <p align="center">
-  <img src="https://img.icons8.com/ios-filled/50/code--v1.png" width="60" alt="Code Screenshot Icon" />
+  <img src="https://img.icons8.com/ios-filled/50/code--v1.png" width="60" alt="CodeFrame Icon" />
 </p>
 
 <h1 align="center">
-  <a href="https://code-ss.pages.dev/" target="_blank">Code Screenshot</a>
+  <a href="https://code-ss.pages.dev/" target="_blank">CodeFrame</a>
 </h1>
 
 <p align="center"><i>A beautiful code snippet screenshot tool — a Ray.so clone with advanced customization features.</i></p>
-
-<p align="center">
-  <a href="https://code-ss.pages.dev/" target="_blank"><strong>🔗 Live Demo</strong></a>
-</p>
 
 ---
 
@@ -81,10 +73,13 @@ A fully functional Ray.so clone (a powerful tool for sharing code snippets) with
 ```bash
 git clone https://github.com/nimone/code-screenshot.git
 cd code-screenshot
-2. Install dependencies
+
+### 2. Install dependencies
+
 npm install
 
-3. Start the development server
+### 3. Start the development server
+
 npm run dev
 Visit http://localhost:5173 in your browser.
 
