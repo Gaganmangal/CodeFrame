@@ -23,6 +23,7 @@ import FontSizeInput from "./components/controls/FontSizeInput"
 import PaddingSlider from "./components/controls/PaddingSlider"
 import BackgroundSwitch from "./components/controls/BackgroundSwitch"
 import DarkModeSwitch from "./components/controls/DarkModeSwitch"
+import BorderRadiusControl from "./components/controls/BorderRadiusControl"
 import { Resizable } from "re-resizable" // Resize karne ke liye external package
 import { Button } from "./components/ui/button"
 import { ResetIcon } from "@radix-ui/react-icons"
@@ -39,6 +40,7 @@ function App() {
   const padding = useStore((state) => state.padding)
   const fontStyle = useStore((state) => state.fontStyle)
   const showBackground = useStore((state) => state.showBackground)
+  const borderRadius = useStore((state) => state.borderRadius)
 
   // Editor ke DOM element ka reference
   const editorRef = useRef(null)
@@ -62,7 +64,8 @@ function App() {
   }, [])
 
   return (
-    <main className="dark min-h-screen flex justify-center items-center bg-neutral-950 text-white">
+    <main className="relative dark min-h-screen flex justify-center items-center text-white">
+      
       {/* Theme aur font ki external stylesheet load kar rahe hain */}
       <link
         rel="stylesheet"
@@ -90,7 +93,7 @@ function App() {
             "overflow-hidden mb-2 transition-all ease-out",
             showBackground ? themes[theme].background : "ring ring-neutral-900"
           )}
-          style={{ padding }}
+          style={{ padding, borderRadius: `${borderRadius}px` }}
           ref={editorRef}
         >
           <CodeEditor />
@@ -123,6 +126,7 @@ function App() {
           <FontSelect />
           <FontSizeInput />
           <PaddingSlider />
+          <BorderRadiusControl />
           <BackgroundSwitch />
           <DarkModeSwitch />
           {/* Divider line */}
