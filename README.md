@@ -130,7 +130,3 @@ Released under the [MIT License](./LICENSE).
     🌈 Try CodeFrame Online →
   </a>
 </p>
-
----
-
-You can copy and paste this markdown directly into your README.md file for a fresh, modern look.
