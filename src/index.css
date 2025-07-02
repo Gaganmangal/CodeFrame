@@ -82,9 +82,14 @@
     inset: 0;
     z-index: 0;
     pointer-events: none;
+
+    /* 👇 Background white, grid lines black with low opacity */
+    background-color: #E5E4E2	;
+
     background-image:
-      linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
-      linear-gradient(180deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+      linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+
     background-size: 40px 40px;
     animation: gridMove 4s linear infinite;
   }
@@ -93,7 +98,6 @@
     0% {
       background-position: 0 0, 0 0;
     }
-
     100% {
       background-position: 40px 40px, 40px 40px;
     }

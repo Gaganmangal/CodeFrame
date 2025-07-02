@@ -64,8 +64,9 @@ function App() {
   }, [])
 
   return (
-    <main className="relative dark min-h-screen flex justify-center items-center text-white">
-      
+    <main className="relative dark min-h-screen flex justify-center items-center bg-neutral-950 text-white">
+      <div className="animated-grid-bg"></div>
+
       {/* Theme aur font ki external stylesheet load kar rahe hain */}
       <link
         rel="stylesheet"
